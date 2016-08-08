@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vk link generator</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="main.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="block" id="form">
+			<input type="text" onchange="obj.url=this.value;" placeholder="Введите ссылку">
+			<input type="text" onchange="obj.text=this.value" placeholder="Введите текст для маскировки">
+			<input type="button" onclick="obj.rewriteDom();">	
+		</div>
+		<div class="block">
+			<div id="text">
+				
+			</div>
+		</div>
+	</div>
+</body>
+</html>
